@@ -1,571 +1,888 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - iPortfolio Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <title>Brandon Ellis</title>
-    <link rel = "shortcut icon" href="favicon.ico">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
-    <link href="slideshow.css" rel="stylesheet"
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
+<body class="index-page">
 
-  </head>
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-  <body id="page-top">
+    <div class="profile-img">
+      <img src="assets/img/headshot.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-sm-none">Brandon Ellis</span>
-        <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-        </span>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#3D">Vision</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#acknowledgements">Acknowledgements</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
-          </li>
-        </ul>
-      </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Brandon Ellis</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/brandon-o-ellis/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="assets/EllisBrandon_Resume.pdf" class="filetype-pdf"><i class="bi bi-filetype-pdf"></i></a>
+      <a href="https://www.github.com/boellis" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://medium.com/@brandonoellis" class="medium"><i class="bi bi-medium"></i></a>
+      
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#skills"><i class="bi bi-hdd-stack navicon"></i> Skills</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Articles and Blogs</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            
+            <li><a href="https://medium.com/datadriveninvestor/connecting-the-microsoft-hololens-and-raspberry-pi3b-58665032964c">Building Digital Twins</a></li>
+            <li class="dropdown"><a href="#"><span>ChatBots</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-1-e21e5eff1228">Setup</a></li>
+                <li><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-2-language-translation-9e819d8d971b">Translation</a></li>
+                <li><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-3-language-understanding-83ad2ed3e652">Understanding</a></li>
+                <li><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-4-voice-call-sms-and-email-1a2df78400fe">Voice, SMS, Email</a></li>
+                <li><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-5-stock-information-7eaedd091007">Stock Information</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Featured Articles</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://www.ediblememphis.com/kidscanmakeadifference/">Edible Memphis</a></li>
+                <li><a href="https://www.stemmagazine.com/gFEB24/viewer/desktop/">STEM Magazine</a></li>
+                <li><a href="https://medium.com/@brandonoellis/the-impact-of-agriculture-and-technology-on-stem-education-da4e3ecfee67">Ag in Education</a></li>
+                <li><a href="https://choose901.com/sustainable-memphis/">Green Movement</a></li>
+                <li><a href="https://agrotechnoire.com/stories-we-tell-brandon/">AgoTech Noire</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Green Tech</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="https://www.spatialgrow.com/post/how-growing-local-produce-empowers-students-communities-and-the-future">Local Produce</a></li>
+                <li><a href="https://www.spatialgrow.com/post/building-a-solar-powered-fan-a-step-by-step-activity">Solar Power</a></li>
+                <li><a href="https://www.spatialgrow.com/post/building-a-fan-powered-boat-a-step-by-step-activity">Air Power</a></li>
+                <li><a href="https://www.spatialgrow.com/post/the-synergy-of-controlled-environment-agriculture-renewable-energy-robotics-and-computer-science-a-vision-for-the-future">Sustainable Vision</a></li>
+                <li><a href="https://www.spatialgrow.com/post/how-controlled-environment-agriculture-and-renewable-energy-benefit-each-other">Renewables and CEA</a></li>
+                <li><a href="https://www.spatialgrow.com/post/the-impact-of-virtual-reality-on-experiential-learning">VR Learning</a></li>
+                <li><a href="https://www.spatialgrow.com/post/building-global-competence-preparing-students-for-a-connected-world">Connected World</a></li>
+                <li><a href="https://www.spatialgrow.com/post/the-impact-of-reinforcement-learning-on-education">RL in Education</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li> -->
+      </ul>
     </nav>
 
-    <div class="container-fluid p-0">
+  </header>
 
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
-          <h1 class="mb-0">Brandon
-            <span class="text-primary">Ellis</span>
-          </h1>
-          <div class="subheading mb-5">
-            <a href="mailto:name@email.com"></a>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/banner.png" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Brandon Ellis</h2>
+        <p>Is...<span class="typed" data-typed-items="A Technologist,An Artist, A Farmer, An Educator">Technologist</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Hey, I’m Brandon. I love tackling hard problems with real-world impact, especially when they involve big data, IoT, and virtual worlds. Data isn’t just numbers to me—it’s the fuel that powers the next wave of innovation, bridging the gap between the physical and digital worlds in ways we’re only beginning to explore.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/headshot.jpg" class="img-fluid" alt="">
           </div>
-          <p class="lead mb-5">
-            What's up, my name is Brandon and I love solving hard problems...especially the kind that try to turn massive amounts of data into something meaningful. To me, data isn’t just numbers—it’s the backbone of how we connect the physical and digital worlds, and we’re only beginning to unlock its full potential.<br><br>
-
-
-            I believe the future is one where big data, IoT, and endless virtual worlds seamlessly blend together. As more devices come online and more systems generate data, the real challenge (and opportunity) lies in processing, structuring, and making sense of it all. Mixed reality will become the ultimate front-end, and big data will be the engine powering it behind the scenes.<br><br>
-            
-            Whether it’s Python, backend architecture, Web3, AI, or digital twins, I thrive on building scalable, high-performance systems that don’t just store and process information, but create new ways for people to interact, explore, and build.<br><br>
-            
-            Right now, I’m focused on developing and collaborating with those who see the future the same way(and looking for a job... ). If that sounds like you, let’s talk.
-          </p>
-
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/brandon-ellis-57b55712a/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/boellis">
-              <i class="fab fa-github"></i>
-            </a>
-            <a href="https://medium.com/@brandonellis_56087">
-              <i class="fab fa-medium"></i>
-            </a>
-            <a href="resume.pdf" download>
-              <i class="fab fa-dropbox"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <hr class="m-0">
-
-
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="3D">
-        <div class="my-auto">
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <div class="resume-item d-flex flex-column flex-md-row mb-5">
-        <iframe title="Brandon's Vision For The Future" src="https://sketchfab.com/models/9dce6a0ae41e4c6f82acbc8b794ea963/embed" height="600" width="1150" onload="this.height=this.contentWindow.document.body.scrollHeight;"></iframe>
-        </div>
-          </div>
-            </div>
+          <div class="col-lg-8 content">
+            <h2>Full Stack Software Engineer &amp; Founder</h2>
+            <p class="fst-italic py-3">
+              My ideal environment is solving hard problems in small teams. I prefer fast-paced workplaces that put an emphasis on collaboration across teams. I've been told I'm a quick learner and am always opening to learning what is needed to address the problem at hand. 
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>8 April 1996</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.brandonoellis.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tennessee, USA</span></li>
+                </ul>
               </div>
-      </section>
-
-      <hr class="m-0">
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
-         <div class="resume-item d-flex flex-column flex-md-row mb-5">
-           <div class="resume-content mr-auto">
-             <div class="resume-item d-flex flex-column flex-md-row mb-5">
-               <div class="resume-content mr-auto">
-                 <h2 class="mb-5">Portfolio</h2>
-                 <h3 class="mb-0">SpatialGrow Classroom</h3>
-                 <div class="subheading mb-3">Web, VR, Desktop - Unity3D, GCP, ReactJS, Python, C#</div>
-                 <p> Description of the SpatialGrow Classroom. Use code <b>spatialgrow24</b> when signing up as a teacher.  </p>
-                 <a href ="https://www.spatialgrowclassroom.com"><img src="Images/sgclass.jpg" height="225" width="400"></img></a>
-                </br>
-              </br>
-              <h3 class="mb-0">SpatialGrow Hub</h3>
-                 <div class="subheading mb-3">Web, VR, Desktop, Mobile - Python, GCP, SQL</div>
-                 <p> Celebrate the kids of St. Jude Children’s Research Hospital in a whole new way. Using Augmented Reality, you can bring St. Jude patient art to life, learn more about each of the patients, and discover how St. Jude is Finding Cures and Saving Children - because all a family should worry about is helping their child live. </p>
-                 <a href ="https://www.spatialgrow.com/spatialgrow-hub"><img src="Images/sghub.png" height="250" width="250"></img></a>
-                </br>
-              </br>
-                 <h3 class="mb-0">SpatialGrow WorldBuilder</h3>
-                 <div class="subheading mb-3">Web, VR, Desktop - Unity3D, GCP, ReactJS, Python, C#</div>
-                 <p> Description of the SpatialGrow Classroom. Use code <b>spatialgrow24</b> when signing up as a teacher.  </p>
-                 <a href ="https://www.www.www"><img src="Images/sgclass.jpg" height="225" width="400"></img></a>
-                </br>
-              </br>
-              <h3 class="mb-0">SpatialGrow Hub</h3>
-                 <div class="subheading mb-3">Web, VR, Desktop, Mobile - Python, GCP, SQL</div>
-                 <p> Celebrate the kids of St. Jude Children’s Research Hospital in a whole new way. Using Augmented Reality, you can bring St. Jude patient art to life, learn more about each of the patients, and discover how St. Jude is Finding Cures and Saving Children - because all a family should worry about is helping their child live. </p>
-                 <a href ="https://www.spatialgrow.com/spatialgrow-hub"><img src="Images/sghub.png" height="250" width="250"></img></a>
-                </br>
-              </br>
-                 <h3 class="mb-0">St. Jude Experience App</h3>
-                 <div class="subheading mb-3">iOS, Android</div>
-                 <p> Celebrate the kids of St. Jude Children’s Research Hospital in a whole new way. Using Augmented Reality, you can bring St. Jude patient art to life, learn more about each of the patients, and discover how St. Jude is Finding Cures and Saving Children - because all a family should worry about is helping their child live. </p>
-                 <a href ="https://apps.apple.com/us/app/st-jude-experience/id1488706329"><img src="Images/experienceapp.png" height="200" width="200"></img></a>
-                </br>
-              </br>
-                 <h3 class="mb-0">Scholarship Manager</h3>
-                 <div class="subheading mb-3">iOS</div>
-                 <p> Scholarship Manager was an app that was created to help manage scholarships. In the app, you are able to input various bit of information regarding scholarship requirements, and manage the scholarships within the app. You are able to enter in your ACT score, GPA, letter of recommendations, and much more, and track which requirements you have yet to fulfill. Scholarship Manager will also notify you about upcoming deadlines regarding your scholarships. This app is a great tool to help organize all of your scholarship information into one place.</p>
-                 <a href ="https://itunes.apple.com/us/app/scholarship-manager-app/id1285985570?mt=8"><img src="Images/scholarshipmanager.png" height="200" width="200"></img></a>
-                </br>
-              </br>
-                <h3 class="mb-0">Memphis 200</h3>
-                <div class="subheading mb-3">iOS</div>
-                <p> The Memphis 200 app celebrates Memphis' Bicenntineal. With the theme of the bicenntineal being "Bring Your Soul", we sought to create an experience that engaged and informed the community. Users are able to navigate around Memphis to discover various St. Jude patient artworks. Once found, users are able to scan the image and watch it come to life, as well as learn about the artist and the building displaying the artwork. </p>
-                <a href ="https://apps.apple.com/us/app/memphis-200/id1458408886"><img src="Images/mem200.png" height="200" width="200"></img></a>
-              </br>
-            </br>
-              <h3 class="mb-0">St Jude. ART</h3>
-              <div class="subheading mb-3">iOS</div>
-              <p>The St. Jude ART app, or better put ARt app, showcasing the artwork of 8 patients from St. Jude, and allows users to experience the story of those patients, as well as watch the patient art come to life. Users are able to take pictures of the augmented experiences and share with family and friends.</p>
-              <a href ="https://apps.apple.com/us/app/st-jude-art/id1473494472"><img src="Images/stjudeart.png" height="200" width="200"></img></a>
-               </div>
-               <div class="resume-date text-md-right">
-               </div>
-             </div>
-             <h3 class="mb-0">Autonomous RC Car</h3>
-             <div class="subheading mb-3">Tensorflow, Python, Keras</div>
-             <p>  ARC is an autonomous rc car that utilizes multiple sensors and behavior cloning to navigate through a track. The components of the ARC is a raspberry pi3, an ultrasonic sensor, a raspberry pi camera, and a handful of other parts to handle the connection and power between the raspberry pi 3 and the rc car. ARC utilizes a handful of libraries ranging from Tensorflow to RPIO.gpio to handle training our  neural network and gauging the distance between the car and objects around it.</p>
-             <video width="320" height="240" src="Videos/ARC_CAR.MOV" controls></video>
-           </div>
-           <div class="resume-date text-md-right">
-           </div>
-         </div>
-
-         <div class="resume-content mr-auto">
-           <h3 class="mb-0">GeoVisualization</h3>
-           <div class="subheading mb-3">TouchDesigner</div>
-           <p>3D visualization of active Runescape players on our big blue planet using Touchdesigner.</p>
-           <video width="500" height="300" src="Videos/Geovisiualization.mp4" controls></video>
-         </div>
-         <div class="resume-date text-md-right">
-         </div>
-       </br>
-
-       <div class="resume-content mr-auto">
-         <h3 class="mb-0">Particle Attractor</h3>
-         <div class="subheading mb-3">TouchDesigner, KinectV2</div>
-         <p>Hand Controlled Cursor that pull particles to it. The model being controlled is being tracked by a KinectV2 and effects a simple particle system in real time. </p>
-           <video width="500" height="300" src="Videos/ParticleAttractor.mp4" controls></video>
-       </div>
-       <div class="resume-date text-md-right">
-       </div>
-     </br>
-
-     <div class="resume-content mr-auto">
-       <h3 class="mb-0">Skeletal Tracking</h3>
-       <div class="subheading mb-3">TouchDesigner, KinectV2</div>
-       <p>Tracking human body pose using KinectV2 and maps sphere object to the human body joints output from our KinectV2. With these reference points, we can do some super fun things...like have a mini dance session in your room with cool effects. </p>
-       <video width="500" height="300" src="Videos/PointCloud.mp4" controls></video>
-       <video width="500" height="300" src="Videos/PointCloud2.mp4" controls></video>
-     </div>
-     <div class="resume-date text-md-right">
-     </div>
-
-   </br>
-
-   <div class="resume-content mr-auto">
-     <h3 class="mb-0">Psychedelic</h3>
-     <div class="subheading mb-3">TouchDesigner, KinectV2</div>
-     <p>For this psychedelic  look, we're streaming video from our KinectV2 and looking for edges in the frame. Once we have the edges highlighted, we add noise and color to those areas to achieve this look. </p>
-     <video width="500" height="300" src="Videos/psychedelic.mp4" controls></video>
-   </div>
-   <div class="resume-date text-md-right">
-   </div>
- </br>
-
-         <div class="resume-content mr-auto">
-           <h3 class="mb-0">Pat Alpha Suite - Hololens</h3>
-           <div class="subheading mb-3">Unity 3D, Twilio, 3D Paint, Domino's Github, Azure</div>
-           <p>The Alpha Suite contains functionality for communicating with Pat. The suite contains components such as language translation, multilingual dialogue w/Pat, view stock information, voice and sms messaging, pizza ordering, online shopping, a calculator, a dictionary, and much more. (Video for remaining functionality coming soon) </p>
-           <!--<video width="500" height="300" src="Videos/GracelandDemo(short-alpha-suite).mp4" controls></video>-->
-           <video width="500" height="300" src="Videos/GracelandDemo(short-alpha-suite).mp4" controls></video>
-         </div>
-         <div class="resume-date text-md-right">
-         </div>
-         <!--<div class="resume-content mr-auto">
-           <h3 class="mb-0">Telephone in Unity3D</h3>
-           <div class="subheading mb-3">Unity 3D, Twilio, 3D Paint</div>
-           <p>The telephone you see in the video was made using 3D paint, and importing the 3D models into Unity3D. To make the call, a post request was made to a python webserver, which then called a function that was conneted to Twilio. </p>
-           <video width="145" height="240" src="Videos/UnityTelephone.mov" controls></video>
-         </div>-->
-         <div class="resume-date text-md-right">
-         </div>
-       <!--  <div class="resume-item d-flex flex-column flex-md-row mb-5">
-           <div class="resume-content mr-auto">
-             <h3 class="mb-0">Genetic Algorithm in Unity</h3>
-             <div class="subheading mb-3">Unity3D</div>
-             <p>Here a genetic algorithm is used on multiple characters to learn how to run across the entire track. Each new generation(iteration), the charcters that performed above a certain threshold will move on to and pass their information to the next generation. The end goal is to have every character run across the entire disntance of the platform. </p>
-             <video width="500" height="300" src="Videos/geneticAlgorithm.m4v" controls></video>
-           </div>
-           <div class="resume-date text-md-right">
-           </div>
-         </div>-->
-         <div class="resume-item d-flex flex-column flex-md-row mb-5">
-           <div class="resume-content mr-auto">
-           </br>
-             <h3 class="mb-0">Hololens Language Translation with Azure</h3>
-             <div class="subheading mb-3">Microsoft Hololens, Microsoft Azure, Unity3D</div>
-             <p>The Microsoft Hololens is currently running an app that is connected to the Language Translation API. At the end of each recognized phrase, the device will send the phrase to the API endpoint and return the desired translated language.</p>
-             <video width="500" height="300" src="Videos/HololensLanguageTranslation.mp4" controls></video>
-           </div>
-           <div class="resume-date text-md-right">
-           </div>
-         </div>
-         <div class="resume-item d-flex flex-column flex-md-row mb-5">
-           <div class="resume-content mr-auto">
-             <h3 class="mb-0">ANNKart</h3>
-             <div class="subheading mb-3">Unity3D</div>
-             <p>Similar to the way ARC works, this ANN kart requires you to drive around the specified course before it is able to drive itself. While driving, the car is reading in multiple distances measurements; making sure to record how far the wall is, the angle, and the speed of the kart. After a successfully completing multiple laps, the returned values are used for our kart that we want to drive on its own. A neural network to accomplish this.</p>
-             <video width="500" height="300" src="Videos/ANNKart.mp4" controls></video>
-           </div>
-           <div class="resume-date text-md-right">
-           </div>
-         </div>
-         <div class="resume-item d-flex flex-column flex-md-row mb-5">
-           <div class="resume-content mr-auto">
-             <h3 class="mb-0">Perceptron</h3>
-             <div class="subheading mb-3">Unity3D</div>
-             <p>This is a visual example of how perceptron learning can lead to improved results over time. The character learns to walk around the platform, and improves based on the given rewards:how long it stayed on the platform, how far it walked, and whether it had fallen off the platform or not.</p>
-             <video width="500" height="300" src="Videos/perceptron.m4v" controls></video>
-           </div>
-           <div class="resume-date text-md-right">
-           </div>
-         </div>
-         <div class="resume-item d-flex flex-column flex-md-row mb-5">
-           <div class="resume-content mr-auto">
-             <h3 class="mb-0">Pong</h3>
-             <div class="subheading mb-3">Unity3D</div>
-             <p>Basic implementation of pong that uses a neural network to play against the user.</p>
-             <video width="500" height="300" src="Videos/pong.m4v" controls></video>
-           </div>
-           <div class="resume-date text-md-right">
-           </div>
-         </div>
-         <div class="resume-content mr-auto">
-           <h3 class="mb-0">Published Works</h3>
-           <div class="subheading mb-3">Data Driven Investor</div>
-         </br>
-           <h5> Creating a Personal ChatBot in Python3 using ChatterBot(Part1 - Setup)</h5>
-           <p><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-1-e21e5eff1228"><img src="Images/part1.png" width="500" height="300"></a></p>
-         </br>
-           <h5> Creating a Personal ChatBot in Python3 using ChatterBot(Part2 - Language Translation)</h5>
-           <p><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-2-language-translation-9e819d8d971b"><img src="Images/part2.png" width="500" height="300"></a></p>
-         </br>
-           <h5> Creating a Personal ChatBot in Python3 using ChatterBot(Part3 - Language Understanding)</h5>
-           <p><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-3-language-understanding-83ad2ed3e652"><img src="Images/part3.png" width="500" height="300"></a></p>
-         </br>
-           <h5> Creating a Personal ChatBot in Python3 using ChatterBot(Part4 - Voice Call, SMS, and Email)</h5>
-           <p><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-4-voice-call-sms-and-email-1a2df78400fe"><img src="Images/part4.jpg" width="500" height="300"></a></p>
-         </br>
-           <h5> Creating a Personal Chatbot in Python3 using ChatterBot(Part 5—Stock Information)</h5>
-           <p><a href="https://medium.com/datadriveninvestor/creating-a-personal-chatbot-in-python3-using-chatterbot-part-5-stock-information-7eaedd091007"><img src="Images/part5.png" width="500" height="300"></a></p>
-         </br>
-           <h5> Connecting the Microsoft Hololens and Raspberry Pi3B+</h5>
-           <p><a href="https://medium.com/datadriveninvestor/connecting-the-microsoft-hololens-and-raspberry-pi3b-58665032964c"><img src="Images/hololens.png" width="500" height="300"></a></p>
-         </div>
-       </section>
-
-
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Full Stack Software Engineer</h3>
-              <div class="subheading mb-3">SpatialGrow </div>
-              <p>Designed, developed, and documented multiple full scale Augmented & Virtual Reality experiences.
-                Worked with small cross functional teams for rapid prototyping.
-                Mobile and Mixed Reality Development(iOS, Android, Oculus, UWP, TouchDesigner)
-              <div></div>
-                Co-lead a collaboration with CodeCrew to teach Weekly classes of 15 middle/high school students through/by ALSAC. CodeCrew is a non-profit based in Memphis that mentors youth to be tech innovators and leaders. Through our collaboration, students are taught how to work in cross-functional teams, the importance of culture and collaboration, and a wide range of technical skills(Machine Learning, Virtual/Augmented Reality, and IoT). We are currently in our virtual 3rd year of the class.
-              <div></div>
-              </br>
-                Host a weekly internal webshow called "Wednesday with Innovation" where we bring on guests and talk about how the organization is thinking out of the box and moving innovation forward. We have different segments within the show where we do book reviews, break down complicated technology terms into simply analogies, and enough Zoom filters to last through a global pandemic.
-
-              </p>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>28</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelors, Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>bellis.swe@gmail.com</span></li>
+                </ul>
+              </div>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Jul 2022 - Mar 2025</span>
+            <p class="py-3">
+              I believe the future is one where big data, IoT, and endless virtual environments seamlessly blend together. As more devices come online and more systems generate data, the real challenge (and opportunity) lies in processing, structuring, and making sense of it all. Mixed reality will be the ultimate front-end, and big data will be the engine powering it behind the scenes.<br><br>
+
+              Whether it’s Python, backend architecture, Web3, AI, or digital twins, I thrive on building scalable, high-performance systems that don’t just store and process information, but create new ways for people to interact, explore, and build.
+              <br><br>
+              Right now, I’m focused on developing and collaborating with those who see the future the same way (and looking for a job...). If that sounds like you, let’s talk.
+
+
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <!-- <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Senior Software Engineer</h3>
-              <div class="subheading mb-3">St. Jude Children's Research Hospital - ALSAC</div>
-              <p>Designed, developed, and documented multiple full scale Augmented & Virtual Reality experiences.
-                Worked with small cross functional teams for rapid prototyping.
-                Mobile and Mixed Reality Development(iOS, Android, Oculus, UWP, TouchDesigner)
-              <div></div>
-                Co-lead a collaboration with CodeCrew to teach Weekly classes of 15 middle/high school students through/by ALSAC. CodeCrew is a non-profit based in Memphis that mentors youth to be tech innovators and leaders. Through our collaboration, students are taught how to work in cross-functional teams, the importance of culture and collaboration, and a wide range of technical skills(Machine Learning, Virtual/Augmented Reality, and IoT). We are currently in our virtual 3rd year of the class.
-              <div></div>
-              </br>
-                Host a weekly internal webshow called "Wednesday with Innovation" where we bring on guests and talk about how the organization is thinking out of the box and moving innovation forward. We have different segments within the show where we do book reviews, break down complicated technology terms into simply analogies, and enough Zoom filters to last through a global pandemic.
-
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Apr 2022 - Apr 2024</span>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0"> Software Engineer</h3>
-              <div class="subheading mb-3">St. Jude Children's Research Hospital - ALSAC</div>
-              <p>Designed, developed, and documented multiple full scale Augmented & Virtual Reality experiences.
-                Worked with small cross functional teams for rapid prototyping.
-                Mobile and Mixed Reality Development(iOS, Android, Oculus, UWP, TouchDesigner)
-              <div></div>
-                Co-lead a collaboration with CodeCrew to teach Weekly classes of 15 middle/high school students through/by ALSAC. CodeCrew is a non-profit based in Memphis that mentors youth to be tech innovators and leaders. Through our collaboration, students are taught how to work in cross-functional teams, the importance of culture and collaboration, and a wide range of technical skills(Machine Learning, Virtual/Augmented Reality, and IoT). We are currently in our virtual 3rd year of the class.
-              <div></div>
-              </br>
-                Host a weekly internal webshow called "Wednesday with Innovation" where we bring on guests and talk about how the organization is thinking out of the box and moving innovation forward. We have different segments within the show where we do book reviews, break down complicated technology terms into simply analogies, and enough Zoom filters to last through a global pandemic.
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div>
 
-              </p>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">January 2019 - Apr 2022</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>/Stats Section -->
+
+    <!--Skills Section 
+    <section id="bargraph" class="skills section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+       <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Python</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </div>
+
+            <div class="progress">
+              <span class="skill"><span>C#</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>GCP</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Databases(SQL/NoSQL)</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>Javascript</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"><span>FastAPI</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Problem solver and technologist passionate about building systems that bridge the digital and physical worlds. My experience spans IoT, backend development, and real-time data processing, where I focus on making complex technology intuitive and scalable. Whether optimizing infrastructure, designing interactive experiences, or developing backend solutions, I thrive on tackling challenges that drive real-world impact.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior Full Stack Software Engineer</h4>
+              <h5>2022 - 2025</h5>
+              <p><em>SpatialGrow</em></p>
+              <ul>
+                <li>Developed large-scale IoT-enabled controllers using Python (FastAPI & Firebase) to process real-time sensor data.</li>
+                <li>Built AI-driven automation tools, integrating speech-to-text transcription and LLM-based insights.</li>
+                <li>Designed and optimized event-driven microservices, improving system scalability and reducing API latency by 40%.</li>
+                <li>Configured Google Cloud infrastructure and CI/CD pipelines for high-availability applications.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Senior Software Engineer</h4>
+              <h5>2022 - 2024</h5>
+              <p><em>St. Jude Children's Research Hospital/ALSAC</em></p>
+              <ul>
+                <li>Engineered real-time user-driven in-person experiences, integrating sensor data with body tracking and cloud-based APIs.</li>
+                <li>Developed interactive AR/VR applications, integrating Unity3D with REST APIs and real-time media capture.</li>
+                <li>Designed multi-threaded systems for handling large-scale sensor data, optimizing real-time responsiveness.</li>
+                <li>Led Docker-based deployments and Kubernetes orchestration to ensure system reliability.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience (cont.)</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Software Engineer</h4>
+              <h5>2019 - 2022</h5>
+              <p><em>St. Jude Children's Research Hospital/ALSAC</em></p>
+              <ul>
+                <li>Built and integrated real-time projection mapping systems using Flask, TouchDesigner, and WebSockets.</li>
+                <li>Developed Python-driven backend solutions for event tracking and immersive user interactions.</li>
+                <li>Designed optimized database schemas to enhance query performance for high-volume applications.</li>
+                <li>Implemented CI/CD pipelines with GitHub Actions, streamlining deployment workflows.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item pb">
+              <h4>Bacherlors of Science</h4>
+              <h5>2014 - 2019</h5>
+              <p><em>University of Memphis, Computer Science</em></p>
+              <!-- <p>During my time at the University of Memphis, I was actively involved in both research and community initiatives. As a Computational Chemistry Research Assistant, I worked with university software to analyze polar optimization of molecules. I was also engaged in tech organizations, including the Black Data Processing Association (BDPA) Memphis Collegiate Chapter and the University of Memphis Association of Computing Machinery (ACM), where I collaborated on projects that combined technology and social impact.</p> -->
+
+            </div><!-- Edn Resume Item -->
+            <h3 class="resume-title">Affiliations</h3>
+            <div class="resume-item pb">
+              <h4>Panel Reviewer, NSF</h4>
+              <h5>2024 - Current</h5>
+              <h4>Committee Member, USDA NRCS</h4>
+              <h5>2023 - 2024</h5>
+              
+            </div><!-- Edn Resume Item -->
+
           </div>
 
           
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Software Engineering Intern</h3>
-              <div class="subheading mb-3">Johnson & Johnson</div>
-              <p>Designed and developed a chatbot to aid in answering questions throughout the onboarding process. The chatbot handled general job and office related questions. You can ask the chatbot a question and have your question answered or be routed to where you need to be. The goal of the chatbot was to improve the ease of onboarding new employees, and to reduce the amount of distractions other employees might have when wanting to help their new coworker(s). Created documentation for working with IoT Edge devices and Microsoft Azure services. The documentation covered topics such as: Provisioning microcomputers and virtual machines as IoT Edge devices, connecting various sensors and processing telemetry data, and the storing and visualization of that processed data.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2018 - August 2018</span>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Experienced full-stack software engineer specializing in Python, backend architecture, and IoT-driven systems. Skilled in building scalable, high-performance applications using FastAPI, Django, SQL, and cloud technologies like GCP and AWS. Expertise in designing real-time data pipelines, integrating LLMs, and leveraging CI/CD for efficient deployments.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Languages</a></h4>
+              <p class="description">Python, C#, Javascript</p>
+               <!-- <ul>
+                <li>Python</li>
+                <li>C#</li>
+                <li>Javascript</li>
+               </ul> -->
             </div>
           </div>
+          <!-- End Service Item -->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">iOS Developer</h3>
-              <div class="subheading mb-3">Poeen</div>
-              <p>Along with a group of 4 other college students, created a mobile application consulting business that generated over six figures in revenue. Worked directly with clients throughout the entire mobile application development lifecycle. Worked directly with designers and clients to implement key features in mobile applications. Handled both the front and backend development, as well as client consultations and follow up meetings.</p>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Frameworks and Libraries</a></h4>
+              <p class="description">FastAPI, Django, Flask, Pandas, Numpy, Speech Recognition, SciPy</p>
+              <!-- <ul>
+                <li>FastAPI</li>
+                <li>Django</li>
+                <li>Flask</li>
+                <li>Pandas</li>
+                <li>Numpy</li>
+                <li>SpeechRecognition</li>
+                <li>SciPy</li>
+                <li>-------3D------</li>
+                <li>Unity3D</li>
+                <li>Blender</li>
+                <li>Adobe Creative Cloud Suite</li>
+               </ul> -->
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">February 2017 - December 2017</span>
-            </div>
-          </div>
+          </div><!-- End Service Item -->
 
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Development Instructor</h3>
-              <div class="subheading mb-3">City of Memphis</div>
-              <p>Responsible for developing lesson plans, establishing general classroom guidelines, and assessing a group of 75 middle and high school students. Taught students HTML, CSS, Bootstrap; allowing them to develop their websites throughout the entirety of the program.</p>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Databases</a></h4>
+              <p class="description">SQL(MySQL, PostgreSQL), NoSQL(Firebase, MongoDB)</p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">June 2017 - August 2017</span>
-            </div>
-          </div>
+          </div><!-- End Service Item -->
 
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Tools and Technologies</a></h4>
+              <p class="description">RESTful APIs, LLMS, IoT, Projection Mapping, RFID, NFC, Unity3D, Blender, Adobe Creative Suite</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Cloud and DevOps</a></h4>
+              <p class="description">Google Cloud Platform(GCP), Amazon Web Services(AWS), Docker, Kubernetes, Github Actions, CI/CD Pipelines</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Non-Technical</a></h4>
+              <p class="description">Exceptional ability to plug in a USB wrong on the first two tries, even with USB-C</p>
+            </div>
+          </div><!-- End Service Item -->
 
         </div>
 
-      </section>
+      </div>
 
-      <hr class="m-0">
-      <section class="resume-section p-3 p-lg-5 flex-column" id="skills">
-        <div class="my-auto">
-          <h2 class="mb-5">Skills</h2>
+    </section><!-- /Skills Section -->
 
-          <div class="subheading mb-3">Programming Languages</div>
-          <ul>
-            <li>Python</li>
-            <li>C#</li>
-            <li>Javascript</li>
-          </ul>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
 
-          <div class="subheading mb-3">Tools</div>
-          <ul>
-            <li>FastAPI</li>
-            <li>MySQL, PostgreSQL</li>
-            <li>PostgreSQL</li>
-            <li>Docker</li>
-            <li>Kubernetes</li>
-            <li>GCP, AWS</li>
-            <li>TouchDesigner</li>
-            <li>Unity3D</li>
-          </ul>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div><!-- End Section Title -->
 
-          <div class="subheading mb-3">Things I Like Doing</div>
-          <ul>
-            <li>Technical Writing</li>
-            <li>Drawing</li>
-            <li>Tinkering with IoT Devices</li>
-            <li>Running</li>
-            <li>Ping Pong</li>
-            <li>Reading</li>
-          </ul>
+      <div class="container">
 
-        </div>
-      </section>
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-      <hr class="m-0">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-spatialgrow">SpatialGrow</li>
+            <li data-filter=".filter-Unity3D">Unity3D</li>
+            <li data-filter=".filter-Touchdesigner">TouchDesigner</li>
+          </ul><!-- End Portfolio Filters -->
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="pb-lg-5 py-lg-2">
-          <h2 class="mb-5">Interests</h2>
-          <div class="subheading mb-3">Some of the Things I Like To Do Outside of Work</div>
-          <ul>
-            <li>Ballroom Dancing</li>
-            <li>Brazilian Jiu Jitsu(BJJ)</li>
-            <li>Farming(Indoor & Tradtional)</li>
-            <li>Cycling</li>
-            <li>Drawing</li>
-            <li>Rocket League</li>
-            <li>Bowling</li>
-            <li>Old School Runescape</li>
-          </ul>
-      </section>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class = "pb-lg-5 py-lg-2" >
-          <h2>Education</h2>
-
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">University of Memphis</h3>
-              <div class="subheading mb-3">Bachelor of Arts & Science</div>
-              <p>Computer Science Major</p>
-              <p>Computational Chemistry Research Assistant</p>
-            </br>
-              <div class="subheading mb-3">Organizations</div>
-              <p>Black Data Processing Associates Memphis Chapter</p>
-              <p>Assocation for Computing Machinery</p>
-              <p>Habitat for Humanity</p>
-              <p>GiveCamp</p>
-              <p>CodeCrew</p>
-              <p>Black Girls Code</p>
-              <p>Tiger Volunteer Network</p>
-              <p>Emerging Leaders</p>
-            </div>
-          </div>
-          <hr class="m-0">
-        </br>
-      </br>
-          <h2 id = "acknowledgements">Awards and Acknowledgements</h2>
-              <p>Gatherverse Speaker - Education(2025)</p>
-              <p>Gatherverse Speaker - Agriculture(2024)</p>
-              <p>Scrum Certification(2023)</p>
-              <p>SpatialGrow Media on Confluence (2022-2024)</p>
-              <p>Aquaponics Association Speaker - AgTech(2023)</p>
-              <p><a href= "https://www.awexr.com/usa-2020/speaker/1565-brandon-ellis">Augmented World Expo(AWE) Speaker(2020)</a></p>
-              <p><a href="https://zeroto510.com/meet-the-3-memphis-summer-of-acceleration-companies/">SkyHigh Transportation and Mobility Accelerator(2019)</a></p>
-              <p>StartCo Transportation & Mobility Hackathon 1st Place(2019)</p>
-              <p>Oracle Scholar(2018)</p>
-              <p>Johnson & Johnson Scholar(2017)</p>
-              <p>1st Place - Start Co's 48 Hour Launch(2017)</p>
-              <p>2nd Place - National BDPA Mobile Application Showcase(2017)</p>
-
-          </div>
-        </div>
-      </section>
-
-
-      <hr class="m-0">
-
-        <hr class="m-0">
-        <section class="resume-section p-3 p-lg-5 d-flex d-column" id="gallery">
-          <div class="my-auto">
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-              <div class="resume-content mr-auto">
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-             <iframe title="Brandon's Art Gallery" src="https://sketchfab.com/models/0bef98c53fae4bcf9d4cb6080d77c6ad/embed" height="600" width="1150" onload="this.height=this.contentWindow.document.body.scrollHeight;"></iframe>
-          </div>
-            </div>
-              </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-spatialgrow">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sg.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SpatialGrow</h4>
+                  <p>Inspiring the next generation of sustainability movers through education, automation, and design.</p>
+                  <a href="assets/img/portfolio/sg.JPG" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="spatialgrow-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
-        </section>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-spatialgrow">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sgclass.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SpatialGrow Classroom</h4>
+                  <p>An Immersive Learning Experience Going Beyond Classroom Walls</p>
+                  <a href="assets/img/portfolio/sgclass.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="spatialgrowclassroom-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-spatialgrow">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sghub6.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SpatialHub</h4>
+                  <p>Modular, Low-Cost Farm Controller</p>
+                  <a href="assets/img/portfolio/sghub6.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="spatialhub-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Unity3D">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/onlybots-hero.gif" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>OnlyBots</h4>
+                  <p>AI-powered virtual companions</p>
+                  <a href="assets/img/portfolio/onlybots-hero.gif" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="onlybots-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/experienceapp.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>St. Jude Experience App(s)</h4>
+                  <p>Bring St. Jude Patient Art To Life</p>
+                  <a href="assets/img/portfolio/experienceapp.png" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="experienceapps-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Unity3D">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/mars4.PNG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Growing on Mars: Greening the Red Planet</h4>
+                  <p>Museum of Science and History Growing on Mars VR and In-Person Experience</p>
+                  <a href="assets/img/portfolio/mars4.PNG" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="mars-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/LSPHero2.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Lynching Sites Project of Memphis</h4>
+                  <p>Immersive and educational AR experience created for The Lynching Sites Project of Memphis</p>
+                  <a href="assets/img/portfolio/LSPHero2.JPG" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="lsp-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-spatialgrow">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/sgvision.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>SpatialGrow Vision</h4>
+                  <p>A vision where education, opportunity, and creativity intersect with state of the art tools to empower learners worldwide. </p>
+                  <a href="assets/img/portfolio/sgvision.JPG" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="sgvision-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-    <script src="slideshow.js"></script>
-    <script src="slideshow1.js"></script>
-    <script src="slideshow2.js"></script>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Unity3D">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/personalvision2.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Personal Vision</h4>
+                  <p>A vision for a cleaner, safer, more efficient world.</p>
+                  <a href="assets/img/portfolio/personalvision.jpeg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="personalvision-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio IBring St. Jude Patient Art To Life
+tem -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/rccar.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Autonomous RC Car</h4>
+                  <p>A modified toy RC car running autonomously using Tensorflow, Python, Keras</p>
+                  <a href="assets/img/portfolio/rccar.JPG" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="rccar-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Touchdesigner">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/td2.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>TouchDesigner Projects</h4>
+                  <p>GeoVisualization,Particle Attractor,Skeletal Tracking, Psychedelic Edge Tracing</p>
+                  <a href="assets/img/portfolio/td2.JPG" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="touchdesigner-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Unity3D">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/holo3.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Hololens Projects</h4>
+                  <p>Pat Alpha Suite, Language Translation with Azure</p>
+                  <a href="assets/img/portfolio/holo3.JPG" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="holo-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Unity3D">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/unity1.JPG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Unity3D Projects</h4>
+                  <p>Unity3D Projects Connected to Neural Networks(ANNKart,Perceptron,Pong)</p>
+                  <a href="assets/img/portfolio/unity1.JPG" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="unity-page.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
 
-  </body>
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    
+
+    <!-- Testimonials Section -->
+    <!-- <section id="testimonials" class="testimonials section light-background">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>/Testimonials Section -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="contact section">
+
+      
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>/Contact Section -->
+    
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
 
 </html>
